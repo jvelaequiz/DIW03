@@ -45,6 +45,7 @@ header img{
 	text-align: center;
 }
 
+
 li
 {
 	margin-left: 20px;
@@ -57,7 +58,7 @@ h2,dt
 .flex-container {
     width: 90%;
     margin: 0 auto;
-    overflow: scroll;
+
 	list-style-type:none;/*Para quitar los puntos de la lista*/
 }
 
@@ -68,6 +69,9 @@ h2,dt
 }
 
 @media (min-width: 320px) {
+.articulos{
+	padding-top: 70px;
+}
 
 
 }
@@ -79,6 +83,11 @@ h2,dt
 		float: left;
 		width: 40%;
 	}
+	
+	.articulos{
+	padding-top: 200px;
+	}
+
 }
 
 @media (min-width: 1200px) {
@@ -86,4 +95,8 @@ h2,dt
 	{
 		width: 20%;
 	}
+	.articulos{
+	padding-top: 500px;
+}
+
 }
