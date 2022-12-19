@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+html{
+	font-family: monospace;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer{
+	text-align: center; 
+}
+
+/* imagen de la cabecera */
+.imagenResponsive{     
+    width: 100%;
+}
+
+header img{
+    margin-top: 1em;
+}
+
+.idiomas{
+	color: black;
+    font-weight: bold;
+	margin-left: 2em;
+}
+.titulo{
+	color: black;
+    font-weight: bold;
+	justify-content:center;
+	text-align: center;
+}
+
+.enlaces{
+	color: black;
+    font-weight: bold;
+	justify-content:center;
+	text-align: center;
+}
+
+li
+{
+	margin-left: 20px;
+}
+h2,dt
+{
+	margin-left: 40px;
+}
+
+.flex-container {
+    background-color:Silver;/*Fondo del menú color gris claro*/
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px lightgray;
+    overflow: scroll;
+	list-style-type:none;/*Para quitar los puntos de la lista*/
+}
+
+.flex-items
+{
+	margin: 10px;
+    width: 75%;
+    margin: 10px auto;
+    background-color: #fAfAfA;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+#uno 
+{
+	height: 70px;/*Altura 70 píxeles*/
+	width: 100%;/*Anchura de 100% */
+	max-width: 960px;/*con un máximo de 960px*/
+	border: 3px solid green;
+	order: 1;/*con el primer elemento en el extremo izquierdo y el último en el extremo derecho.*/
+}
+#dos
+{
+	height: 70px;
+	width: 100%;
+	max-width: 960px;
+	border: 3px solid green;
+	order: 2;
+}
+#tres
+{
+	height: 70px;
+	width: 100%;
+	max-width: 960px;
+	border: 3px solid green;
+	order: 3;
+}
+
+@media (min-width: 320px) {
+
+
+}
+
+@media (min-width: 830px) {
+	.flex-items
+	{	
+		margin: 10px;
+		float: left;
+		width: 45%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.flex-items
+	{
+
+		width: 30%;
+
+	}
+}
